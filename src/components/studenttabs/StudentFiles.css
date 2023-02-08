@@ -1,0 +1,30 @@
+.student_files_container {
+    display: block;
+    height: 70px;
+    margin-right: 20px;
+    position: relative;
+    background: linear-gradient(90deg, #0b3b70, #89b6e8);
+    margin-bottom: 5px;
+}
+
+.student_files_data {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.student_files_data i {
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0;
+    margin: 0;
+    margin-right: 10px;
+    position: absolute;
+    font-size: .7rem;
+}

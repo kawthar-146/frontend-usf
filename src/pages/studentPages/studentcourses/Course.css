@@ -1,0 +1,86 @@
+.course_section {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.student_settings_section {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.margin_left{
+    margin-left: 16rem;
+}
+
+.home_tabs_title {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 3rem 0 .5rem 0;
+}
+
+.home_tabs_title h2 {
+  font-weight: 400;
+  color: #0b3b70;
+  font-size: 1.5rem;
+}
+
+.home_tabs_title h2 span{
+    color: #ffcb08;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+}
+
+
+.home_tabs_title h2 span:hover{
+    color: #ffd94e;
+}
+
+.tabs_blocks{
+   width: 100%;
+}
+
+.tabs_titles{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.tabs_title{
+    margin-right: 3rem;
+    cursor: pointer;
+    color: #0b3c70;
+    opacity: .5;
+    transition: ease-in-out .15s;
+    padding-bottom: .5rem;
+}
+
+.tabs_title:hover{
+    color: #0b3b70;
+   
+    opacity: 1;
+}
+
+.active_tab{
+    margin-right: 3rem;
+    cursor: pointer;
+    color: #0b3b70;
+    border-bottom: 3px solid #ffcb08;
+    opacity: 1;
+    padding-bottom: .5rem;
+}
+
+.unactive_content{
+    display: none;
+}
+
+.block{
+    width: 100%;
+
+}

@@ -1,0 +1,71 @@
+.doctor_notification_container {
+    display: block;
+    height: 70px;
+    margin-right: 20px;
+    position: relative;
+    background: linear-gradient(90deg, white, white);
+    margin-bottom: 5px;
+}
+
+.doctor_notification_data {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: flex;
+    width: 100%;
+}
+
+.doctor_notification_name {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.doctor_notification_name {
+    color: #0b3b70;
+}
+
+.doctor_notification_info {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+
+.doctor_notification_play {
+    display: flex;
+    justify-content: flex-end;
+    width: 35%;
+}
+
+.doctor_notification_container p {
+    color: #0b3b70;
+    cursor: pointer;
+}
+
+.doctor_notification_container:hover {
+    background: linear-gradient(90deg,#0b3b70,#89b6e8);
+}
+
+.doctor_notification_container:hover p {
+    color: white;
+}
+
+.doctor_notification_img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.doctor_middle_notification {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 80%;
+    color: #0b3b70;
+    font-weight: 500;
+}

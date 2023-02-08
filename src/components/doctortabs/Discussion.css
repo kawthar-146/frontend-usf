@@ -1,0 +1,92 @@
+.discussion_section{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2.2fr 1.8fr;
+    grid-gap: 1rem;
+}
+
+.discussion_container{
+    border: 2px solid #0b3b70;
+    width: 100%;
+    height: 65vh;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.discussion_chat_container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.discussion_container h2{
+    color: #0b3b70;
+    font-weight: 500;
+    margin: .5rem 2.5rem;
+}
+
+.discussion_message{
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discussion_message input{
+    padding: .5rem;
+    border: 2px solid #0b3b70;
+    border-radius: .5rem;
+    outline: none;
+    width: 80%;
+    font-size: 1.2rem;
+    color: #0b3b70;
+}
+
+.discussion_message button{
+    padding: .7rem 1.2rem;
+    color: #ffcb08;
+    background-color: #0b3b70;
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.sender_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.sender_image{
+    max-width: 20%;
+    max-height: 9vh;
+}
+
+.sender_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.sender_messages{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    border: 2px solid #0b3b70;
+    width: 35%;
+}
+
+.user_container{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}

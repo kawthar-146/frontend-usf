@@ -1,0 +1,348 @@
+.popup_student_assignment{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.popup_student_assignment_content{
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    background-color: white;
+    border-radius: 2rem;
+    color: #0b3b70;
+    font-weight: 400;
+}
+
+.popup_doctor_assignment_content {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    background-color: white;
+    border-radius: 2rem;
+    color: #0b3b70;
+    font-weight: 400;
+}
+
+.popup_doctor_setdate_assignment_uppercontainer {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.popup_doctor_setdate_assignment_uppercontainer p{
+    color: #0b3b70;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.popup_doctor_setdate_assignment_lowercontainer {
+    display: block;
+    height: 30vh;
+    margin-left: 7%;
+    margin-right: 7%;
+    
+}
+
+.set_reveal_date {
+    display: flex;
+    height: 100%;
+}
+
+.set_reveal_date_image_and_calendar {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.set_reveal_date_image img {
+    height: 30px;
+    width: 30px;
+}
+
+.set_reveal_date_info p {
+    color: #0b3b70;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.set_reveal_date_info span {
+    color: #ffcb08;
+    font-weight: 500;
+    font-size: .8rem;
+}
+
+.set_deadline_checkbox_container {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.set_deadline_checkbox_container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.set_deadline_checkbox_checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 5px;
+    border: solid blue 2px;
+}
+  
+.set_deadline_checkbox_container input:checked ~ .set_deadline_checkbox_checkmark {
+    background-color: white;
+}
+
+.set_deadline_checkbox_checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.set_deadline_checkbox_container input:checked ~ .set_deadline_checkbox_checkmark:after {
+    display: block;
+}
+  
+.set_deadline_checkbox_container .set_deadline_checkbox_checkmark:after {
+    left: 9px;
+    top: -5px;
+    width: 10px;
+    height: 20px;
+    border: solid #ffcb08;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.set_deadline_titles {
+    display: flex;
+}
+
+.close_student_assignment_popup{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+    color: #0b3b70;
+    font-weight: 700;
+}
+
+.set_deadline_late_tunr-ins {
+    display: flex;
+    justify-content: space-between;
+    width: 21%;
+}
+
+.set_deadline_late_tunr-ins p{
+    font-size: 0.9rem;
+}
+
+.assignment_content {
+    width: 100%;
+    margin: auto;
+}
+
+.assignment_content_link{
+    height: 100%;
+    margin: auto;
+    width: 90%;
+}
+
+.assignment_content span{
+    font-size: .9rem;
+    color: #ffcb08;
+}
+
+.assignment_description_box {
+    margin: auto;
+    margin-top: 20px;
+    height: 42vh;
+    width: 90%;
+    border-radius: 2rem;
+    border: 2px solid #0b3b70;
+}
+
+.popup_student_assignment_content_link{
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    background-color: white;
+    border-radius: 2rem;
+    color: #0b3b70;
+    font-weight: 400;
+}
+
+.assignment_description_box_link_two{
+
+    height: 60%;
+    border-radius: 1rem;
+    border: 2px solid #0b3b70;
+}
+
+.assignment_description_box_link{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:10%;
+    border-radius: .8rem;
+    border: 2px solid #0b3b70;
+    margin-bottom: 1rem;
+}
+
+.assignment_description_doctor {
+    margin: 5px 25px 5px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95%;
+}
+
+.assignment_description{
+    margin: 5px 25px 5px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 36vh;
+}
+
+.assignment_description_buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.assignment_description_buttons_link{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+.assignment_buttons {
+    display: flex;
+    background-color: #0b3b70;
+    height: 7vh;
+    width: 12vw;
+    border-radius: 5px;
+    border: none;
+    color: #ffcb08;
+    cursor: pointer;
+    position: relative;
+}
+
+.assignment_buttons p {
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    margin: 0;
+    position: absolute;
+    left: 5px;
+    font-size: .7rem;
+}
+
+.assignment_buttons i {
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    top: 50%;
+    right: 0;
+    margin: 0;
+    margin-right: 10px;
+    position: absolute;
+    font-size: .7rem;
+}
+
+.assignment_submit_buttons {
+    background-color: #0b3b70;
+    border: none;
+    color: #ffcb08;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.assignment_submit_description_buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.set_deadline_checkbox_container_turn-ins {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.set_deadline_checkbox_container_turn-ins input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.set_deadline_checkbox_checkmark_turn-ins {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 12px;
+    width: 12px;
+    background-color: white;
+    border-radius: 5px;
+    border: solid blue 2px;
+}
+  
+.set_deadline_checkbox_container_turn-ins input:checked ~ .set_deadline_checkbox_checkmark_turn-ins {
+    background-color: white;
+}
+
+.set_deadline_checkbox_checkmark_turn-ins:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.set_deadline_checkbox_container_turn-ins input:checked ~ .set_deadline_checkbox_checkmark_turn-ins:after {
+    display: block;
+}
+  
+.set_deadline_checkbox_container_turn-ins .set_deadline_checkbox_checkmark_turn-ins:after {
+    left: 3px;
+    top: -1px;
+    width: 4px;
+    height: 10px;
+    border: solid #ffcb08;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

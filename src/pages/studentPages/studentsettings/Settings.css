@@ -1,0 +1,214 @@
+.settings_content_title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin:  0;
+  margin-bottom: 2rem;
+}
+
+.settings_content_title h2 {
+  font-weight: 400;
+  color: #0b3b70;
+  font-size: 1.5rem;
+}
+
+.settings_content_title span {
+  color: #ffcb08;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.settings_content_title p {
+  color: #0b3b70;
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.settings_container {
+  width: 90%;
+  border: 1px solid #0b3b70;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.settings_content {
+  padding: 0;
+  width: 80%;
+  margin: 0;
+  margin-left: 16rem;
+}
+
+.settings_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.settings_title span{
+  padding: 1rem 0 1rem 0;
+  color: #0b3b70;
+  font-weight: 500;
+}
+
+.settings_title .edit_button{
+  cursor: pointer;
+  font-size: .8rem;
+  font-weight: 500;
+  color: #ffcb08;
+}
+
+.settings_data_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  
+}
+
+
+.settings_data_grid-address{
+  display: flex;
+  justify-content: space-between;
+}
+
+.settings_data_grid-address span{
+  display: flex;
+  flex-direction: row;
+  min-height: 4vh;
+  color: #0b3b70;
+  width: 100%;
+  font-size: .9rem;
+}
+
+
+
+.settings_data_grid span {
+  display: flex;
+  flex-direction: row;
+  min-height: 4vh;
+  color: #0b3b70;
+  width: 100%;
+  font-size: .9rem;
+}
+
+
+.settings_span_div{
+  color: #0b3b70;
+  opacity: .5;
+  margin-left: .2rem;
+}
+
+.settings_content_inside{
+  padding: 1rem;
+}
+
+.custom-file-upload {
+  border: none;
+  height: 100%;
+  cursor: pointer;
+  background-color: #0b3b70;
+  color: #ffcb08;
+  border-radius: .6rem;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.select_photo_button input{
+  display: none;
+}
+
+.student_profile_page{
+  max-width: 80%;
+  max-height: 50vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr
+}
+
+.profile_pic{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+.profile_pic img {
+  width: 60%;
+  border-radius: 50%;
+  height: 100%;
+  border: none;
+  background-color: gray;
+}
+
+.profile_edit_pic{
+  display: flex;
+  flex-direction: column;
+}
+
+.profile_edit_pic h1{
+  margin: 0;
+  color: #0b3b70;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.profile_edit_pic h3{
+  color: #ffcb08;
+  font-size: 1.2rem;
+}
+
+.select_photo_button{
+  border: 1px solid #0b3b70;
+  width: 75%;
+  height: 5vh;
+  border-radius: .6rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+
+.upload_photo_button button{
+  padding: .5rem 1.5rem;
+  border-radius: 1rem;
+  background-color: #0b3b70;
+  color: #ffcb08;
+  border: none;
+  cursor: pointer;
+  transition: ease-in-out .1s;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.upload_photo_button button:hover{
+  background-color: #0b3b70;
+  opacity: .8;
+}
+
+.input_edit{
+  outline: none;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid #ffcb08;
+  font-size: .9rem;
+  font-weight: 500;
+}
+
+.input_assignment_name{
+  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.input_assignment_name input{
+  width: 80%;
+  border: none;
+  outline: none;
+  padding: .5rem;
+  font-size: 1.2rem;
+  color: #0b3b70;
+}

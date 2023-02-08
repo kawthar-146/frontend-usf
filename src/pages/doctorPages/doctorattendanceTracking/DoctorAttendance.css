@@ -1,0 +1,89 @@
+.attendance_classes {
+  width: 100%;
+}
+
+.attendance_assignment_container_doctor {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 5px;
+  color: #0b3b70;
+}
+
+.attendance_assignment_container_doctor:hover {
+  background: linear-gradient(90deg, #0b3b70, #a8c9ee);
+  color: white;
+}
+
+.attendance_save_button{
+    padding: .5rem 1rem;
+    border: none;
+    background-color: #0b3b70;
+    color: #ffcb08;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.attendance_save_button:hover{
+    opacity: 0.9;
+}
+
+.attendance_classes_section{
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.attendance_class_name {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.attendance_class_link{
+    text-decoration: none;
+}
+
+.attendance_view_class {
+  margin-right: 2rem;
+  color: #0b3b70;
+}
+
+
+.attendance_class_titles{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    margin-bottom: .3rem;
+    color: #0b3b70;
+}
+
+.attendance_student_component{
+    width: 90%;
+    height: 4rem;
+    background: linear-gradient(90deg, #0b3b70, #a8c9ee);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+
+.attendance_student_component div{
+    width: 59%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    color: white;
+}
+

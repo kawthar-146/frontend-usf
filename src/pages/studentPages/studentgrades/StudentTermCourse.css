@@ -1,0 +1,80 @@
+.student_course_grade_container {
+    display: block;
+    height: 70px;
+    margin-right: 20px;
+    position: relative;
+    background: linear-gradient(90deg, white, white);
+    margin-bottom: 5px;
+}
+
+.student_course_grade_data {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: flex;
+    width: 100%;
+}
+
+.student_course_grade_name {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+.student_course_grade_name {
+    color: #0b3b70;
+}
+
+.student_course_grade_info {
+    display: flex;
+    justify-content: space-evenly;
+    width: 65%;
+}
+
+.student_course_grade_play {
+    display: flex;
+    justify-content: flex-end;
+    width: 10%;
+}
+
+.student_course_grade_container p {
+    color: #0b3b70;
+}
+
+.student_course_grade_container:hover {
+    background: linear-gradient(90deg,#0b3b70,#89b6e8);
+}
+
+.student_course_grade_container:hover p {
+    color: white;
+}
+
+.student_course_grade_img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.student_middle_course_grade {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 80%;
+    color: #0b3b70;
+    font-weight: 500;
+}
+
+.student_course_grade_p::before {
+    content: " ";
+    height: 12px;
+    width: 12px;
+    background-color: #ffcb08;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 50px;
+}

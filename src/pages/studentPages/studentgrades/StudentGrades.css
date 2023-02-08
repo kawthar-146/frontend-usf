@@ -1,0 +1,40 @@
+.student_grades_container {
+    display: block;
+    height: 70px;
+    margin-right: 20px;
+    position: relative;
+    background: linear-gradient(90deg, #0b3b70, #89b6e8);
+    margin-bottom: 5px;
+}
+
+.student_grades_data {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: flex;
+    width: 100%;
+}
+
+.student_grades_name {
+    display: flex;
+    justify-content: space-evenly;
+    width: 10%;
+}
+
+.student_grades_info {
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+}
+
+.student_grades_play {
+    display: flex;
+    justify-content: flex-end;
+    width: 10%;
+}
+
+.student_grades_container p {
+    color: white;
+}

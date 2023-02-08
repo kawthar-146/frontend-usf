@@ -1,0 +1,75 @@
+.header_login{
+    width: 100%;
+    background-color: #0b3b70;
+    min-height: 9vh;
+  }
+  
+  .header_login img {
+    width: 4em;
+    height: 9vh;
+    background-color: white;
+    margin-left: 10rem;
+  }
+  
+  .body_login{
+    background: url('../images/IMG_5204.jpg'), #f7e70041;
+    background-blend-mode: lighten;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer_login{
+    min-height: 8vh;
+    width: 100%;
+    background-color: #0b3b70;
+  }
+  
+  .container_login{
+    height: 40vh;
+    width: 80vh;
+    border-radius: 2rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .container_login h1{
+    margin: 0;
+    color: #0b3b70;
+    font-size: 2.5rem;
+  }
+  
+  .container_login span{
+    color: #0b3b70;
+    font-weight: 600;
+    font-size: .85rem;
+  }
+  
+  .container_login .input_login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+  }
+  
+  .container_login .input_login label{
+    color: #0b3b70;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .button_login{
+    padding: .5rem 2rem;
+    border-radius: 2rem;
+    background-color: #0b3b70;
+    border: none;
+    color: #ffcb08;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
